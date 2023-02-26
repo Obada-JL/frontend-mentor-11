@@ -1,0 +1,197 @@
+.body {
+    background-image: url(bg-pattern-top-desktop.svg);
+    background-image: url(bg-pattern-bottom-desktop.svg);
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 585px;
+    width: 1358px;
+
+}
+
+.con1,
+.con2,
+.stars,
+.txt,
+.star-text1,
+.star {
+    flex: 50%;
+}
+
+.con1 {
+    display: flex;
+
+}
+
+
+
+.txt {
+
+    margin-left: 65px;
+    font-size: 20px;
+    padding: 0px 200px 0 61px;
+    color: hsl(300, 43%, 22%)
+}
+
+.h1 {
+    font-size: 46px;
+    color: hsl(300, 43%, 22%);
+}
+
+.mtxt {
+    font-size: 16px;
+}
+
+.reviews,
+.report,
+.besttech {
+    height: 60px;
+    width: 400px;
+    display: flex;
+    background-color: hsl(300, 24%, 96%);
+    margin-top: 35px;
+    border-radius: 8px;
+}
+
+.reviews {
+    margin-left: -185px;
+    margin-top: 70px;
+}
+
+.report {
+    margin-left: -112px;
+
+}
+
+.besttech {
+    margin-left: -19px
+}
+
+.star-text1 {
+    margin-top: 20px;
+
+}
+
+.star {
+    margin-top: 22px;
+    margin-left: 10px;
+    flex: 10%;
+}
+
+.star2 {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.star-text2 {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.star3 {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.star-text3 {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.star-text1,
+.star-text2,
+.star-text3 {
+    color: hsl(300, 43%, 22%);
+}
+
+.con2 {
+    display: flex;
+
+}
+
+.colton,
+.irene,
+.anne {
+    flex: 33.3%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.colton {
+    margin-left: 90px;
+    margin-top: -29px;
+}
+
+.img-txt {
+    display: flex;
+    flex: 50%;
+
+}
+
+.main-txt {
+    flex: 50%;
+    padding: 0px 12px;
+}
+
+.mcontainer {
+    height: 200px;
+    width: 350px;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 7px;
+}
+
+.profile {
+    margin-top: 18px;
+}
+
+.irene {
+    margin-top: 20px;
+}
+
+.anne {
+    margin-top: 40px;
+    margin-right: 130px;
+}
+
+@media screen and (max-width: 375px) {
+    .container {
+        flex-direction: column;
+        width: 600px;
+    }
+
+    .con2 {
+        flex-direction: column;
+    }
+
+    .con1 {
+        flex-direction: column;
+    }
+
+    .colton,
+    .irene,
+    .anne {
+        margin-left: 15px;
+        
+    }
+.anne{
+    margin-top: 15px;
+}
+    .reviews,
+    .report,
+    .besttech{
+        margin: 15px;
+    }
+    .besttech{
+        margin-bottom: 25px;
+        margin-top: 0px;
+    }
+    .txt{
+        margin: 0px;
+        text-align:center;
+    }
+}
